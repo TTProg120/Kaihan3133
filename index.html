@@ -44,7 +44,7 @@
           <li><a href="https://twitter.com/kaihan_3133" class="dropdown" target="_blank"><span>TWITTER</span></a></li>          
           <li><a href="https://discord.gg/s2rCpcsj5k" class="dropdown" target="_blank"><span>DISCORD</span></a></li>
           <li><a href="https://t.me/+S0Ys3mSvPrU1Yzhl" class="dropdown" target="_blank"><span>TELEGRAM</span></a></li>
-          <li><a href="https://team57.gitbook.io/kaihan/" class="dropdown" target="_blank"><span>DOCS</span></a></li> 
+          <li><a href="#" id="docsLink" class="dropdown" target="_blank"><span>DOCS</span></a></li> 
           <li><a href="#" class="dropdown"><span>CONTACT US</span></a></li> 
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -193,6 +193,12 @@
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/php-email-form/validate.js"></script>
   <script src="assets/js/main.js"></script>
+  <script>    
+    document.getElementById('docsLink').addEventListener('click', function(e) {      
+      e.preventDefault();
+      window.open('assets/img/Kaihan-Litepaper.pdf', '_blank');
+    });
+  </script>
 </body>
 
 </html>
